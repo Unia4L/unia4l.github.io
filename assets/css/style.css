@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Mukta:wght@200&display=swap');
+
+body{
+    background-size: cover;
+    background-position: center center;
+    background: url('../images/background.gif');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titlebar{
+    color: white;
+    background-color: rgba(21, 21, 21, 0.4);
+    text-align: center;
+    font-family: Mukta;
+    display: table;
+    margin: 0px auto 0px auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    height: 25%;
+}
+
+.menubar{
+    font-size: 18px;
+}
+
+.projectbox{
+    background-color: rgba(21, 21, 21, 0.4);
+    color: white;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    font-family: Mukta;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    width: 25%;
+    display: table;
+}
+
+.container{
+    background-color: rgba(21, 21, 21, 0);
+    font-family: Mukta;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.menubar a {text-decoration: none; color: white;}
+.menubar p {display: inline-block;}
+.titlebar a { color: white;}
+.projectbox a { color: white; text-decoration: none;}
+.projectbox p1 {text-decoration: underline;}
+a:hover{ color: #c9c9c9;}
