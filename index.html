@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="titlebar">
-        <p class="hit"> <u>Unhittable since '03 </u></p>
+        <p id="quote" style="font-size: 18px; font-family: Courgette;"> <u></u></p>
         <h1 class="title"> unia </h1>
         <div class="menubar">
             <a href="https://unia.gg/links">links</a>
@@ -21,10 +21,31 @@
     </div>
 
     <footer>
-        <p> &copy Unia 2022 </p>
+        <p> &copy Unia 2023 </p>
     </footer>
 
 </body>
 
+<script>
+
+const quotes = ["Bad times are just times that are bad.",
+"xqcL",
+"Who is Joe?",
+"Pixel Perfection...",
+"The weed bandit",
+"Never gonna give you up!",
+"Don't press alt + f4",
+"The work of Unia!",
+"Have yourself a damn good one.",
+"Don't give up... Just take a break",
+"97.5% of statistics are fabricated.",
+"Keep doing what you love!",
+"Enjoy your breaks"];
+
+let number = Math.floor((Math.random()) * quotes.length);
+let quote = quotes[number];
+document.getElementById("quote").innerHTML = quote;
+
+</script>
 
 </html>

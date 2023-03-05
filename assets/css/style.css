@@ -86,11 +86,6 @@ footer{
     right: 0px;
 }
 
-.hit{
-    font-size: 18px;
-    font-family: Courgette;
-}
-
 .menubar a {text-decoration: none; color: white;}
 .menubar p {display: inline-block;}
 .titlebar a {font-size: 20px; color: white;}
