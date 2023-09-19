@@ -93,3 +93,5 @@ footer{
 .projectbox a { color: white; text-decoration: none;}
 .projectbox p1 {text-decoration: underline;}
 a:hover{ color: #c9c9c9;}
+
+@media (max-width: 1800px) {.titlebar{width: 50%;}}
