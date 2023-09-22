@@ -86,10 +86,13 @@ footer{
     right: 0px;
 }
 
+
+
 .menubar a {text-decoration: none; color: white;}
 .menubar p {display: inline-block;}
-.titlebar a {font-size: 20px; color: white;}
-.titlebar h1 {font-size: 40px;}
+.titlebar a {font-size: 20px; color: white; padding:3px;}
+.titlebar .homebtn {font-size: 20px; border-bottom: 0px solid white; text-decoration: none; }
+.titlebar h1 {font-size: 40px; }
 .projectbox a { color: white; text-decoration: none;}
 .projectbox p1 {text-decoration: underline;}
 a:hover{ color: #c9c9c9;}
